@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMMuster", "MVVMMuster\MVVMMuster.csproj", "{3078B0C1-0981-4476-8E5E-59064E58A3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{68165876-12BF-4610-8CE6-45E7F35062C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{58B9C688-84A2-4738-BE8C-84FA6258EC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic.UI", "Logic.UI\Logic.UI.csproj", "{18A116C5-B9B3-41BB-BECF-5C9C894AE5B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3078B0C1-0981-4476-8E5E-59064E58A3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3078B0C1-0981-4476-8E5E-59064E58A3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3078B0C1-0981-4476-8E5E-59064E58A3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3078B0C1-0981-4476-8E5E-59064E58A3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A116C5-B9B3-41BB-BECF-5C9C894AE5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A116C5-B9B3-41BB-BECF-5C9C894AE5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A116C5-B9B3-41BB-BECF-5C9C894AE5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A116C5-B9B3-41BB-BECF-5C9C894AE5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3078B0C1-0981-4476-8E5E-59064E58A3CE} = {68165876-12BF-4610-8CE6-45E7F35062C0}
+		{18A116C5-B9B3-41BB-BECF-5C9C894AE5B2} = {58B9C688-84A2-4738-BE8C-84FA6258EC58}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7D5E21C-8CE1-4EEC-8194-3B74758616DD}
+	EndGlobalSection
+EndGlobal
